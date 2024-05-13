@@ -10,14 +10,14 @@
 
     <Screen :title="'Instructions'">
       <Slide>
-      This study is about verbs that describe changes, such as the verb <b>to decrease</b>. Your task is to rate how much the verb relates to the two changes depicted by the pictures displayed on the screen, as shown below. The picture on the left depicts a change in size. The picture on the right depicts a change in vertical position. You can drag the slider towards either of the pictures to indicate which type of change is a better fit for the verb in question.
+      This study is about verbs that describe changes, such as the verb <b>to decrease</b>. Your task is to rate how much the verb relates to the two changes depicted by the pictures displayed on the screen, as shown below. The picture on the left depicts a change in vertical position. The picture on the right depicts a change in size. You can drag the slider towards either of the pictures to indicate which type of change is a better fit for the verb in question.
         <br />
         <br />
       If you think the verb doesn't relate particularly well to either type of change, or if you think it relates equally to both, you can leave the slider right in between both pictures.
         <br />
         <br />
       There is no right or wrong in this task. We ask you to follow your intuition.
-      <div style="text-align: center;"><img src="../public/images/instructions_view.png""/></div>
+      <div style="text-align: center;"><img src="../public/images/instructions_view.png" "/></div>
       <button @click="$magpie.nextScreen()">Go to consent</button>
     </Slide>
     </Screen>
