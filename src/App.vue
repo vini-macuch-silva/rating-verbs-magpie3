@@ -17,7 +17,7 @@
         <br />
         <br />
       There is no right or wrong in this task. We ask you to follow your intuition.
-      <div style="text-align: center;"><img src="../public/images/instructions_view.png" "/></div>
+      <div style="text-align: center;"><img src="../public/images/instructions_view.png"/></div>
       <button @click="$magpie.nextScreen()">Go to consent</button>
     </Slide>
     </Screen>
