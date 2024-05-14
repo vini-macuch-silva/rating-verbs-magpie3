@@ -10,7 +10,13 @@
 
     <Screen :title="'Instructions'">
       <Slide>
-      This study is about words that describe changes, such as <b>decrease</b>. Your task is to rate how much the word relates to the two changes depicted by the pictures displayed on the screen, as shown in the example below. The picture on the left depicts a change in vertical position, that is, a circle moving down. The picture on the right depicts a change in size, that is, a circle becoming smaller. You can drag the slider towards either of the pictures to indicate which type of change is a better fit for the word in question. The closer you move the slider to the picture, the more you think the word represents this type of change.
+      This study is about words that describe changes, such as <b>decrease</b>. Your task is to rate how much the word relates to the two changes depicted by the pictures displayed on the screen, as shown in the example below. 
+        <br />
+        <br />
+      The picture on the left depicts a change in vertical position, that is, a circle moving down. The picture on the right depicts a change in size, that is, a circle becoming smaller. 
+        <br />
+        <br />
+      You can drag the slider towards either of the pictures to indicate which type of change is a better fit for the word in question. The closer you move the slider to the picture, the more you think the word represents this type of change.
         <br />
         <br />
       If you think the word doesn't relate particularly well to either type of change, or if you think it relates equally to both, you can leave the slider right in between both pictures, as shown below.
@@ -80,12 +86,12 @@
       </Screen>
     </template>
 
+    <PostTestScreen />
+
     <Screen>
       Thank you for participating in our study!
       <button @click="$magpie.nextScreen()">Next</button>
     </Screen>
-
-    <PostTestScreen />
 
     <SubmitResultsScreen />
   </Experiment>
