@@ -1,17 +1,17 @@
 item_id,qud,question,picture1,picture2,optionLeft,optionRight,polarity
-1,to decrease,How much does the verb <b>decrease</b> relate to the two changes depicted below?,images/decrease_size.png,images/decrease_vertical.png,size,vertical,negative
-2,to lessen,How much does the verb <b>lessen</b> relate to the two changes depicted below?,images/decrease_vertical.png,images/decrease_size.png,vertical,size,negative
-3,to lower,How much does the verb <b>lower</b> relate to the two changes depicted below?,images/decrease_size.png,images/decrease_vertical.png,size,vertical,negative
-4,to reduce,How much does the verb <b>reduce</b> relate to the two changes depicted below?,images/decrease_vertical.png,images/decrease_size.png,vertical,size,negative
-5,to drop,How much does the verb <b>drop</b> relate to the two changes depicted below?,images/decrease_size.png,images/decrease_vertical.png,size,vertical,negative
-6,to fall,How much does the verb <b>fall</b> relate to the two changes depicted below?,images/decrease_vertical.png,images/decrease_size.png,vertical,size,negative
-7,to decline,How much does the verb <b>decline</b> relate to the two changes depicted below?,images/decrease_size.png,images/decrease_vertical.png,size,vertical,negative
-8,to shrink,How much does the verb <b>shrink</b> relate to the two changes depicted below?,images/decrease_vertical.png,images/decrease_size.png,vertical,size,negative
-9,to contract,How much does the verb <b>contract</b> relate to the two changes depicted below?,images/decrease_size.png,images/decrease_vertical.png,size,vertical,negative
-10,to increase,How much does the verb <b>increase</b> relate to the two changes depicted below?,images/increase_vertical.png,images/increase_size.png,vertical,size,positive
-11,to grow,How much does the verb <b>grow</b> relate to the two changes depicted below?,images/increase_size.png,images/increase_vertical.png,size,vertical,positive
-12,to rise,How much does the verb <b>rise</b> relate to the two changes depicted below?,images/increase_vertical.png,images/increase_size.png,vertical,size,positive
-13,to go up,How much does the verb <b>go up</b> relate to the two changes depicted below?,images/increase_size.png,images/increase_vertical.png,size,vertical,positive
-14,to escalate,How much does the verb <b>escalate</b> relate to the two changes depicted below?,images/increase_vertical.png,images/increase_size.png,vertical,size,positive
-15,to expand,How much does the verb <b>expand</b> relate to the two changes depicted below?,images/increase_size.png,images/increase_vertical.png,size,vertical,positive
-16,to extend,How much does the verb <b>extend</b> relate to the two changes depicted below?,images/increase_vertical.png,images/increase_size.png,vertical,size,positive
+1,decrease,How much does the word <b>decrease</b> relate to the two changes depicted below? Please check the pictures carefully.,images/decrease_size.png,images/decrease_vertical.png,size,vertical,negative
+2,lessen,How much does the word <b>lessen</b> relate to the two changes depicted below? Please check the pictures carefully.,images/decrease_vertical.png,images/decrease_size.png,vertical,size,negative
+3,lower,How much does the word <b>lower</b> relate to the two changes depicted below? Please check the pictures carefully.,images/decrease_size.png,images/decrease_vertical.png,size,vertical,negative
+4,reduce,How much does the word <b>reduce</b> relate to the two changes depicted below? Please check the pictures carefully.,images/decrease_vertical.png,images/decrease_size.png,vertical,size,negative
+5,drop,How much does the word <b>drop</b> relate to the two changes depicted below? Please check the pictures carefully.,images/decrease_size.png,images/decrease_vertical.png,size,vertical,negative
+6,fall,How much does the word <b>fall</b> relate to the two changes depicted below? Please check the pictures carefully.,images/decrease_vertical.png,images/decrease_size.png,vertical,size,negative
+7,decline,How much does the word <b>decline</b> relate to the two changes depicted below? Please check the pictures carefully.,images/decrease_size.png,images/decrease_vertical.png,size,vertical,negative
+8,shrink,How much does the word <b>shrink</b> relate to the two changes depicted below? Please check the pictures carefully.,images/decrease_vertical.png,images/decrease_size.png,vertical,size,negative
+9,contract,How much does the word <b>contract</b> relate to the two changes depicted below? Please check the pictures carefully.,images/decrease_size.png,images/decrease_vertical.png,size,vertical,negative
+10,increase,How much does the word <b>increase</b> relate to the two changes depicted below? Please check the pictures carefully.,images/increase_vertical.png,images/increase_size.png,vertical,size,positive
+11,grow,How much does the word <b>grow</b> relate to the two changes depicted below? Please check the pictures carefully.,images/increase_size.png,images/increase_vertical.png,size,vertical,positive
+12,rise,How much does the word <b>rise</b> relate to the two changes depicted below? Please check the pictures carefully.,images/increase_vertical.png,images/increase_size.png,vertical,size,positive
+13,go up,How much does the word <b>go up</b> relate to the two changes depicted below? Please check the pictures carefully.,images/increase_size.png,images/increase_vertical.png,size,vertical,positive
+14,escalate,How much does the word <b>escalate</b> relate to the two changes depicted below? Please check the pictures carefully.,images/increase_vertical.png,images/increase_size.png,vertical,size,positive
+15,expand,How much does the word <b>expand</b> relate to the two changes depicted below? Please check the pictures carefully.,images/increase_size.png,images/increase_vertical.png,size,vertical,positive
+16,extend,How much does the word <b>extend</b> relate to the two changes depicted below? Please check the pictures carefully.,images/increase_vertical.png,images/increase_size.png,vertical,size,positive

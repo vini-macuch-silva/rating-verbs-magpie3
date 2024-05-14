@@ -1,23 +1,35 @@
 <template>
-  <Experiment title="Rating verbs">
+  <Experiment title="Rating words">
     <Screen :title="'Welcome!'">
-      In this task you will be asked to think about the meaning of different verbs. It should take no longer than 5 minutes to complete.
+      In this task you will be asked to think about the meaning of words used to describe changes. It should take no longer than 5 minutes to complete.
         <br />
         <br />
-      If you are ready to read the instructions, please go ahead and click the button below..
+      If you are ready to read the instructions, please go ahead and click the button below.
       <button @click="$magpie.nextScreen()">Begin the experiment</button>
     </Screen>
 
     <Screen :title="'Instructions'">
       <Slide>
-      This study is about verbs that describe changes, such as the verb <b>to decrease</b>. Your task is to rate how much the verb relates to the two changes depicted by the pictures displayed on the screen, as shown below. The picture on the left depicts a change in vertical position. The picture on the right depicts a change in size. You can drag the slider towards either of the pictures to indicate which type of change is a better fit for the verb in question.
+      This study is about words that describe changes, such as <b>decrease</b>. Your task is to rate how much the word relates to the two changes depicted by the pictures displayed on the screen, as shown in the example below. The picture on the left depicts a change in vertical position, that is, a circle moving down. The picture on the right depicts a change in size, that is, a circle becoming smaller. You can drag the slider towards either of the pictures to indicate which type of change is a better fit for the word in question. The closer you move the slider to the picture, the more you think the word represents this type of change.
         <br />
         <br />
-      If you think the verb doesn't relate particularly well to either type of change, or if you think it relates equally to both, you can leave the slider right in between both pictures.
+      If you think the word doesn't relate particularly well to either type of change, or if you think it relates equally to both, you can leave the slider right in between both pictures, as shown below.
         <br />
         <br />
       There is no right or wrong in this task. We ask you to follow your intuition.
       <div style="text-align: center;"><img src="../public/images/instructions_view.png"/></div>
+      <button @click="$magpie.nextScreen()">Go to further instructions</button>
+    </Slide>
+    </Screen>
+
+    <Screen :title="'Instructions'">
+      <Slide>
+      Because the words have different meanings, the sliders are changing on each screen. Please make sure to check the slider each time before you respond.        <br />
+        <br />
+        <br />
+      <div style="text-align: center;"><img src="../public/images/instructions_view.png"/></div>
+      <br />
+      <div style="text-align: center;"><img src="../public/images/instructions_view-2.png"/></div>
       <button @click="$magpie.nextScreen()">Go to consent</button>
     </Slide>
     </Screen>
@@ -27,10 +39,10 @@
         <li>I confirm that the purpose of the study has been explained and that I have understood it.</li>
           <br />
           <br />
-        <li>I understand that my participation in this study is voluntary and that I am free to withdraw from the study at any time until submission of the form, without giving a reason and without consequence.</li>
+        <li>I understand that my participation in this study is voluntary and that I am free to withdraw from the study at any time until submission of the form, without giving a reason and without consequence. I understand that I can do so simply by closing my browser window.</li>
           <br />
           <br />
-        <li>I understand that data will be identifiable only via the Prolific ID, which will not be shared with any published data. I understand that all published data will be treated as confidential and anonymised.</li>
+        <li>I understand that data will be identifiable only via the Prolific ID, which will not be shared with any published data. I understand that all published data will be treated as confidential and anonymised. I also understand that I will be asked to provide optional demographic information at the end of the study.</li>
           <br />
           <br />
         <li>I understand that there are no known risks or hazards associated with participating in this study.</li>
@@ -49,7 +61,7 @@
           <p><strong>{{ trial.qud }}</strong></p>
           <p v-html="trial.question"></p>
             <div class="flexbox">
-              <img :src="trial.picture1" class="padding" style="max-width:90px; max-height:90px;" />
+              <img :src="trial.picture1" style="max-width:90px; max-height:90px;" />
               <SliderInput :initial="50" :response.sync="$magpie.measurements.rating" />
               <img :src="trial.picture2" style="max-width:90px; max-height:90px;" />
               <Record :data="{
@@ -107,5 +119,10 @@ export default {
 <style>
 .flexbox {
   display: flex;
- }
+}
+
+ul {
+  list-style-position: inside;
+}
+
 </style>
