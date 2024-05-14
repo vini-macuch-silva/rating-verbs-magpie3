@@ -24,7 +24,7 @@
 
     <Screen :title="'Instructions'">
       <Slide>
-      Because the words have different meanings, the sliders are changing on each screen. Please make sure to check the slider each time before you respond.        <br />
+      Because the words have different meanings, the pictures are changing on each screen. Please make sure to check the pictures each time before you respond.        <br />
         <br />
         <br />
       <div style="text-align: center;"><img src="../public/images/instructions_view.png"/></div>
